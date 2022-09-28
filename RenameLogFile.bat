@@ -10,7 +10,7 @@ ECHO %date% %time% Debut du traitement
 
 REM Initialisation variables
 SET datejour=%date:~6,4%%date:~3,2%%date:~0,2%
-
+echo %datejour%
 echo log file starts
 echo something is done in the application
 echo %date% %time% >> %LogFile%%extension%
